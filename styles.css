@@ -1,4 +1,4 @@
-/* Outdated CSS */
+/* Updated CSS */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -18,23 +18,29 @@ nav ul {
     padding: 0;
 }
 
-li {
-    margin: 0;
-    padding: 0;
+nav ul li {
+    list-style-type: none;
+    margin: 0 10px;
 }
 
-p {
-    margin: 0;
-    padding: 0;
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
 }
 
-img {
+.sink-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.sink img {
     width: 100%;
     height: auto;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
+
 
