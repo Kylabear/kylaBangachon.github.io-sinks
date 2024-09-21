@@ -33,9 +33,18 @@ main {
     padding: 20px;
 }
 
+.sink {
+    flex: 1 1 300px;  
+    max-width: 400px;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
 .sink-info {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-around;  
     gap: 20px;
 }
 
@@ -46,6 +55,9 @@ main {
 
 .sink-features {
     margin-top: 20px;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .sink-features img {
