@@ -42,5 +42,16 @@ main {
     height: auto;
 }
 
+.sink-features {
+    margin-top: 20px;
+}
 
-
+footer {
+    background-color: #cccccc;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+ footer p {
+    margin: 0%;
+ }
