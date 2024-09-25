@@ -120,9 +120,37 @@ footer {
     align-items: center;
     background-color: #cccccc;
     text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 1rem;
 }
  footer p {
-    margin: 0%;
+    margin: 0;
+ }
+
+ /*Res4SmScr.hahah*/
+
+ @media (max-width:576px){
+    header h1 {
+        font-size: 1,8rem;
+    }
+    header p {
+        font-size: 1rem;
+    }
+    
+    .sink h2,
+    .sink-features h2 {
+        font-size: 1.3rem;
+    }
+    
+    .sink p,
+    .sink-features p {
+        font-size: 0.9rem;
+    }
+    
+    nav ul li a {
+        padding: 0.75rem;
+    }
+    
+    footer {
+        padding: 0.5rem;
+    }
  }
